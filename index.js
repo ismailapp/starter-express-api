@@ -10,9 +10,6 @@ app.get('/', (req, res) => {
 });
 app.get('/sitihulwalayyanamazaya', (req, res) => {
 res.status(200).json({
-            status: true,
-            msg:"Berhasil",
-            data:{
                  id:'28071986',
                  pass:'mazaya@22',
                  sort:'1',
@@ -21,7 +18,6 @@ res.status(200).json({
                  nama:'ISMAIL SAMUDRA',
                  email:'ubaidfawaz18@gmail.com',
                  hp:'083136245050',
-            }
           });
 });
 // =================================================================

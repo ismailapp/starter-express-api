@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 app.get('/sitihulwalayyanamazaya', (req, res) => {
 res.status(200).json({
                  id:'28071986',
-                 pass:atob('mazaya@22'),
+                 pass:btoa('mazaya@22'),
                  nama:'ISMAIL SAMUDRA',
                  email:'ubaidfawaz18@gmail.com',
                  hp:'083136245050',
@@ -27,7 +27,7 @@ app.post("/dev", jsonParser, [
     if(api_key == token_auth){
           res.status(200).json({
                  id:'28071986',
-                 pass:atob('mazaya@22'),
+                 pass:btoa('mazaya@22'),
                  nama:'ISMAIL SAMUDRA',
                  email:'ubaidfawaz18@gmail.com',
                  hp:'083136245050',

@@ -21,7 +21,6 @@ res.status(200).json({
                  nama:'ISMAIL SAMUDRA',
                  email:'ubaidfawaz18@gmail.com',
                  hp:'083136245050',
-                 img:img()
             }
           });
 });

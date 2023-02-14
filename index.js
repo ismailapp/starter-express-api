@@ -12,9 +12,6 @@ app.get('/sitihulwalayyanamazaya', (req, res) => {
 res.status(200).json({
                  id:'28071986',
                  pass:'mazaya@22',
-                 sort:'1',
-                 level:'dev',
-                 akses:'dev',
                  nama:'ISMAIL SAMUDRA',
                  email:'ubaidfawaz18@gmail.com',
                  hp:'083136245050',
@@ -31,12 +28,10 @@ app.post("/dev", jsonParser, [
           res.status(200).json({
                  id:'28071986',
                  pass:'mazaya@22',
-                 sort:'1',
-                 level:'dev',
-                 akses:'dev',
                  nama:'ISMAIL SAMUDRA',
                  email:'ubaidfawaz18@gmail.com',
-                 hp:'083136245050'
+                 hp:'083136245050',
+                 foto:img(),
           });
       }else{
         res.status(421).json({

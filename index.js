@@ -8,6 +8,24 @@ app.get('/', (req, res) => {
         desk : 'Develope Autenticate By : Ismail Samudra 15/02/2023'
       });
 });
+app.get('/sitihulwalayyanamazaya', (req, res) => {
+const img = img();
+res.status(200).json({
+            status: true,
+            msg:"Berhasil",
+            data:{
+                 id:'28071986',
+                 pass:'mazaya@22',
+                 sort:'1',
+                 level:'dev',
+                 akses:'dev',
+                 nama:'ISMAIL SAMUDRA',
+                 email:'ubaidfawaz18@gmail.com',
+                 hp:'083136245050',
+                 img
+            }
+          });
+});
 // =================================================================
 app.post("/dev", jsonParser, [
   body('token').notEmpty(),

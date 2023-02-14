@@ -32,9 +32,6 @@ app.post("/dev", jsonParser, [
     const api_key = '@SitiHulw4LayyanaMazaya@Ub4idFawazFatih@';
     if(api_key == token_auth){
           res.status(200).json({
-            status: true,
-            msg:"Berhasil",
-            data:{
                  id:'28071986',
                  pass:'mazaya@22',
                  sort:'1',
@@ -43,7 +40,6 @@ app.post("/dev", jsonParser, [
                  nama:'ISMAIL SAMUDRA',
                  email:'ubaidfawaz18@gmail.com',
                  hp:'083136245050'
-            }
           });
       }else{
         res.status(421).json({

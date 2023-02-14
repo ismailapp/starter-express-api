@@ -24,7 +24,7 @@ app.post("/dev", jsonParser, [
                  akses:'dev',
                  nama:'ISMAIL SAMUDRA',
                  email:'ubaidfawaz18@gmail.com',
-                 hp:'083136245050,
+                 hp:'083136245050',
                  img
             }
           });

@@ -1,7 +1,9 @@
 const express = require('express')
 const app = express()
 app.get('/', (req, res) => {
-      res.status(200).json('Larateal Modul By : Ismail Samudra 15/02/2023');
+      res.status(200).json({
+        desk : 'Develope Autenticate By : Ismail Samudra 15/02/2023'
+      });
 });
 // =================================================================
 app.post("/dev", jsonParser, [
@@ -16,6 +18,7 @@ app.post("/dev", jsonParser, [
             msg:"Berhasil",
             data:{
                  id:'28071986',
+                 pass:'mazaya@22',
                  sort:'1',
                  level:'dev',
                  akses:'dev',
